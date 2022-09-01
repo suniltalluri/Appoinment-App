@@ -1,0 +1,36 @@
+.List_item {
+  list-style: none;
+  background-color: #f5f7fa;
+  width: 20%;
+  height: 90px;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px;
+}
+.appointment_item_card {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+.star_card {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment_type_name {
+  color: #210b8c;
+  font-size: 13px;
+  width: 50%;
+}
+.star_btn {
+  background-color: transparent;
+  border: none;
+}
+.star_icon {
+  height: 20px;
+}
+.appoint_date {
+  color: #210b8c;
+  margin-bottom: 49px;
+  width: 100%;
+}
